@@ -1,0 +1,155 @@
+// 头部四栏信息项
+.info-item {
+    height: 108px;
+    background: #fff;
+
+    // 图标
+    .icon {
+        float: left;
+        margin: 14px 0 0 14px;
+        padding: 16px;
+
+        >img {
+            width: 48px;
+            height: 48px;
+        }
+    }
+
+    // 右侧信息
+    .right-info {
+        float: right;
+        font-weight: 700;
+        margin: 26px;
+        margin-left: 0;
+
+        .info-label {
+            line-height: 18px;
+            font-size: 16px;
+            margin-bottom: 12px;
+            color: #8C8C8C;
+        }
+
+        .info-value {
+            font-size: 20px;
+        }
+    }
+}
+
+// 下方三栏信息
+.three-list {
+    margin-top: 40px;
+
+    .head-title {
+        font-size: 16px;
+    }
+}
+
+// 评论列表项
+.comment-item {
+    margin-bottom: 15px;
+}
+
+// 评论列表项头部信息，用户名、文章标题、回复时间等
+.top-info {
+    line-height: 22px;
+
+    >span {
+        float: left;
+
+        &.username,
+        &.reply-username {
+            color: #409eff;
+
+            &.reply-username {
+                margin-right: 4px;
+            }
+        }
+
+        &.title {
+            max-width: 140px;
+            height: 19px;
+            color: #878d99;
+        }
+
+        &.txt {
+            margin: 0 4px;
+        }
+
+        &.date {
+            font-size: 12px;
+            color: #b4bccc;
+        }
+    }
+}
+
+// 评论信息
+.comment-info {
+    position: relative;
+    padding-left: 50px;
+    margin-top: 5px;
+    height: 40px;
+}
+
+// 头像
+.head-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+// 回复内容
+.comment-content {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-radius: 6px;
+    background: #EDF2FC;
+
+    &:before {
+        position: absolute;
+        top: 15px;
+        right: 100%;
+        width: 0;
+        height: 0;
+        content: " ";
+        border: solid transparent;
+        border-right-color: #edf2fc;
+    }
+}
+
+// 新注册用户列表项
+.new-reg-item {
+    position: relative;
+    padding-left: 50px;
+    height: 71px;
+    line-height: 71px;
+    border-bottom: 1px solid #EEEEEE;
+
+    .head-img {
+        top: 15px;
+    }
+
+    .username {
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+// 系统信息项
+.system-info-item {
+    line-height: 30px;
+
+    .label {
+        width: 100px;
+        margin-right: 10px;
+        font-weight: 700;
+    }
+}
